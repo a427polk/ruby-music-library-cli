@@ -1,4 +1,4 @@
-require_relative './config/environment'
+rrequire_relative './config/environment'
 
 def reload!
   load_all "./config" if Dir.exists?("./config")
